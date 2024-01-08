@@ -1,0 +1,209 @@
+body { /*estilo del cuerpo en general*/
+    font-family: Arial; /*elegimos la tipografía que tendrá */
+    margin: 0px; /* sin espacios*/
+    padding: 0px;
+    background-color:#554840;
+}
+
+header {  /*cabecera*/
+    background-color: #9A8473;
+    text-align: center;
+    padding: 20px 0;
+}
+
+div.logo-container img{ /*imagen del nombre de la marca*/
+    width: 200px;
+    position: relative;
+    top: 20px;
+    right: 500px;
+}
+div.logoTacon-container img{ /*imagen del logo tacon de la marca*/
+    width: 50px;
+    position: relative;
+    bottom: 20px;
+    left: 600px;
+}
+
+nav { /* las cajas de color beis */
+    background-color: #CBB097;
+    padding: 10px 0;
+}
+
+nav a { /* los links */
+    color: white;
+    text-decoration:none;
+    margin: 0 5px;
+}
+
+.barra{ /* barra de busqueda */
+    background-color: #CBB097;
+    display: flex;
+    align-items: center; /*para que los elementos esten alineados*/
+    padding: 0px 10px;
+    justify-content: flex-end; /* que se situe en la drch debajo del logo */ 
+    margin-right: 20px;
+}
+
+.barra img {/* la barra de navegación el tamaño de las imagenes*/ 
+    width: 20px;
+    height: 20px;
+}
+
+.barra a{ /* letra de la barra de navegacion*/ 
+    font-size: 10px;
+    font-family: Arial;
+}
+
+.secciones { /* donde va el contenido*/ 
+    padding: 20px;
+    background-color: #554840
+}
+h2 { /* los títulos*/ 
+    padding: 10px;
+    background-color: #554840;
+    text-align: center;
+    color:#E2D4BF;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.newsletter { /* el estilo de la newsletter */
+    background-color:#554840;
+    padding: 20px;
+    text-align: center;
+    color: #CBB097;
+    position: relative;
+    bottom: 40px;
+}
+
+.newsletter button, input{ /* los botones de la newsletter */
+    background-color:antiquewhite;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color:#554840;
+}
+
+.politica { /* el estilo de la politica de privacidad de datos */
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+    color: #CBB097;
+    position: relative;
+    bottom: 20px;
+}
+.titulopie-container{ /* el titulo del pie */
+    position: relative;
+    bottom: 20px;
+}
+
+.copy p{/* el texto del copyright */
+    color: #CBB097;
+}
+
+footer { /* el pie */
+    padding: 10px 0;
+    text-align: center;
+    background-color: #554840
+}
+
+footer a {  /* links pie */
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; 
+}
+
+footer img { /* imagenes pie */
+    max-width: 90%;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+div.redes-container { /* redes sociales pie */
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    background-color: #554840
+}
+
+.contenido { /* el contenido general de la pagina */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.parte-izq { /* la parte izquierda de la pagina */
+    width: 20%;
+    background-color:#CBB097;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.parte-drch {/* la parte derecha de la pagina */
+    width: 80%;
+    background-color:#9A8473;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul { /* lista de categorias */
+    list-style: none;
+    padding: 0;
+}
+
+.categoria-boton {/* botones de las categorias */
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:#554840;
+    color:#fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.categoria-boton:hover { /* efecto hover de los botones de las categorias */
+    color:#333;
+    background-color:#E2D4BF;
+}
+
+/* Estilos para los productos en columnas de 3 */
+.product-grid { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.product { /* estilo de los productos */
+    background-color:antiquewhite;
+    padding: 10px;
+    border: 1px solid #E2D4BF;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product h3 {/* titulo de los productos */
+    font-size: 18px;
+    margin: 10px 0;
+    color:#333;
+}
+
+.product img { /* imagen de los productos */
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product p {/* precio y descripción de los productos */
+    font-size: 14px;
+    color: #333;
+}
+
+.copy p{ /* texto del pie */
+    color: #CBB097;
+}

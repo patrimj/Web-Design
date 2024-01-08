@@ -1,0 +1,258 @@
+body { /*cuerpo*/
+    background-color: #ffffff;
+    color: #333333;
+    font-family: Arial; /*elegimos la tipografía que tendrá */
+    margin: 0px; /* sin espacios*/
+    padding: 0px;
+}
+
+header {  /*cabecera*/
+    background-color: #9A8473;
+    text-align: center;
+    padding: 20px 0;
+}
+
+div.logo-container img{ /*imagen del nombre de la marca*/
+    width: 200px;
+    position: relative;
+    top: 20px;
+    right: 500px;
+}
+div.logoTacon-container img{ /*imagen del logo tacon de la marca*/
+    width: 50px;
+    position: relative;
+    bottom: 20px;
+    left: 600px;
+}
+
+nav { /* las cajas de color beis */
+    background-color: #CBB097;
+    padding: 10px 0; 
+}
+
+nav a { /* los links */
+    color:#554840;
+    text-decoration:none;
+    margin: 0 5px;
+}
+
+.barra{ /* barra de busqueda */
+    background-color: #ffffff;
+    display: flex;
+    align-items: center; /*para que los elementos esten alineados*/
+    padding: 0px 10px;
+    justify-content: flex-end; /* que se situe en la drch debajo del logo */ 
+    margin-right: 20px;
+}
+
+.barra img {/* la barra de navegación el tamaño de las imagenes*/ 
+    width: 20px;
+    height: 20px;
+}
+
+.barra a{ /* letra de la barra de navegacion*/ 
+    font-size: 10px;
+    font-family: Arial;
+}
+
+.secciones { /* donde va el contenido*/ 
+    padding: 20px;
+    background-color: #554840
+}
+.secciones H2 { /* los títulos*/ 
+    padding: 20px;
+    background-color: #ff6201;
+    text-align: center;
+    color:#000000;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.seccion-caja { /* cada sección */ 
+    background-color: #CBB097;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+div.texto{ /* texto seccion el tacon de oro */ 
+    display: flex;
+    background-color:  #554840;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    color: #E2D4BF;
+    text-align: justify;
+    justify-content: flex-start;
+    top: 60px;
+    position: relative;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+div.tac a{ /* logo seccion el tacon de oro */ 
+    display:flex;
+    position: relative;
+    padding: 10px 50px;
+    margin: 5px 10px;
+    justify-content:center;  
+    left: auto;
+}
+
+div.imgTacon{ /* img seccion el tacon de oro */ 
+    display:flex;
+    position: relative;
+    padding: 10px 20px;
+    margin: 5px 50px;
+    justify-content: flex-end;
+    float: right; /* Colocar el contenido a la derecha */
+    top: 15px;
+    background-color:  #554840;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.seccion-producto { /* cada sección de los productos = que la seccion-caja */ 
+    background-color: #CBB097;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.producto-caja{ /* cada producto */ 
+    background-color: #E2D4BF;
+    text-align: center;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    flex-direction: row;
+    position: relative;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.producto-caja button { /* los botones de cada producto */ 
+    color:#E2D4BF;
+    background-color:  #554840;
+    position: relative;
+    right: 100px;
+    top: 130px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.producto-caja img { /* las img de cada producto */ 
+    margin-right: 10px;
+    align-items:center;
+    position: relative;
+    left: 40px;
+}
+
+div.textoPiel{ /*el texto de la seccion la piel*/
+    display: flex;
+    background-color:  #554840;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    color: #E2D4BF;
+    text-align: justify;
+    justify-content: flex-start;
+    top: 30px;
+    position: relative;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+div.imgPiel img{  /*la img de la seccion la piel*/
+    display:flex;
+    position: relative;
+    padding: 10px 20px;
+    margin: 5px 50px;
+    justify-content: flex-end;
+    float: right; 
+    bottom: 5px;
+    background-color:  #554840;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+.seccion-caja a{ /*de cada caja los links*/
+    color: #9A8473;
+    position: relative;
+    left: 600px;
+    top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #E2D4BF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color:  #554840;
+}
+.tiendas img{  /* las imagenes de la seccion tiendas */
+    color: #9A8473;
+    position: relative;
+    left: 170px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+.newsletter { /* el estilo de la newsletter */
+    background-color:#ff7676;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+    bottom: 40px;
+}
+.newsletter button, input{ /* los botones de la newsletter */
+    background-color:rgb(255, 176, 73);
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color:#554840;
+}
+
+.politica { /* el estilo de la politica de privacidad de datos */
+    margin-top: 10px;
+    font-size: 14px;
+    color: #CBB097;
+    position: relative;
+    bottom: 20px;
+}
+
+.titulopie-container{ /* el titulo del pie */
+    position: relative;
+    bottom: 20px;
+}
+.copy p{/* el texto del copyright */
+    color: #CBB097;
+}
+
+footer { /* el pie */
+    padding: 10px 0;
+    text-align: center;
+    background-color: #554840
+}
+
+footer a { /* links pie */
+    color: #E2D4BF;
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+footer img {/* imagenes pie */
+    max-width: 90%;
+    margin-right: 10px;
+    padding: 20px;
+
+}
+
+div.redes-container { /* redes sociales pie */
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    background-color: #554840
+}
+
+
+a {
+    color: #0066cc; /* enlaces azules para un buen contraste */
+}

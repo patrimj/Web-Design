@@ -1,0 +1,272 @@
+
+.caja1 {
+    width: 200px;
+    height: 200px;
+    background-color: navy; /* Fondo azul marino */
+    border: 8px solid black; /* Borde negro */
+    position: relative; /* Usamos posición relativa para posicionar la caja roja */
+}
+
+.caja2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow; 
+    border: 8px solid red;
+    position: relative; /* Usamos posición absoluta para posicionar en la esquina superior izquierda */
+    top: 0; /* Desde la parte superior */
+    left: 0; /* Desde la parte izquierda */
+}
+
+
+.caja4 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow; 
+    border: 8px solid red;
+    position: relative; 
+    top: 10px; 
+    left: 0; 
+}
+
+.caja6 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow; 
+    border: 8px solid red;
+    position: relative; 
+    top: 10px; 
+    left: 10px; 
+}
+.caja8 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow; 
+    border: 0px;
+    position: relative; 
+    top: 0px; 
+    left: 0px; 
+}
+.caja10 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow; 
+    border: 0px;
+    position: relative; 
+    top: 150px; 
+    left: 0px; 
+}
+.caja12 {
+    width: 100px;
+    height: 250px;
+    background-color: yellow; 
+    border: 0px;
+    position: relative; 
+    top: 0px; 
+    left: 0px; 
+}
+.caja13 {
+    width: 200px;
+    height: 200px;
+    background-color: navy;
+    border: 8px solid black; 
+    position: relative; 
+    font-size: 10px;
+    color:  white;
+    text-align:left;
+}
+.caja14 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow; 
+    border: 0px;
+    position: relative; 
+    top: 0px; 
+    left: 0px; 
+    font-size: 10px;
+    color:  black;
+    text-align:left;
+}
+
+.caja15 {
+    width: 200px;
+    height: 200px;
+    background-color: navy;
+    border: 8px solid black; 
+    position: relative; 
+    font-size: 10px;
+    color:  white;
+    text-align:left;
+}
+
+.caja16 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow; 
+    border: 0px;
+    font-size: 10px;
+    color:  black;
+    text-align:left;
+    padding: 20px;
+}
+
+
+.caja17 {
+    width: 200px;
+    height: 200px;
+    background-color: navy;
+    border: 8px solid black; 
+    position: relative; 
+    font-size: 10px;
+    color:  white;
+    padding-left: 20px;
+
+}
+
+.caja18 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow; 
+    border: 0px;
+    font-size: 10px;
+    color:  black;
+    text-align:left;
+    padding: 15px;
+    position: relative;
+    top: -10px;
+}
+.caja19 {
+    width: 200px;
+    height: 200px;
+    background-color: navy;
+    border: 8px solid black; 
+    position: relative; 
+    font-size: 10px;
+    color:  white;
+    padding-left: 30px;
+    padding-top: 10px;
+    position: relative;
+
+
+}
+
+.caja20 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow; 
+    top: 15px;
+    left: 20px;
+    border: 0px;
+    font-size: 10px;
+    color:  black;
+    text-align:left;
+    padding: 10px;
+    position: relative;
+}
+.caja21 {
+    width: 145px;
+    height: 145px;
+    background-color: navy; 
+    border: 8px solid black; 
+    position: relative; 
+}
+
+.C1 {
+    width: 80px;
+    height: 15px;
+    background-color: yellow; 
+    border: 1px solid red;
+    position: relative; 
+    top: 0; 
+    left: 0; 
+}
+.C2 {
+    width: 80px;
+    height: 15px;
+    background-color: yellow; 
+    border: 1px solid red;
+    position: relative; 
+    top: 0; 
+    left: 0; 
+}
+.C3 {
+    width: 80px;
+    height: 15px;
+    background-color: yellow; 
+    border: 1px solid red;
+    position: relative; 
+    top: 0; 
+    left: 0; 
+}
+.C1 {
+    width: 80px;
+    height: 15px;
+    background-color: yellow; 
+    border: 1px solid red;
+    position: relative; 
+    top: 0; 
+    left: 0; 
+}
+.C4 {
+    width: 80px;
+    height: 15px;
+    background-color: yellow; 
+    border: 1px solid red;
+    position: relative; 
+    top: 0; 
+    left: 0; 
+}
+
+.C5 {
+    width: 80px;
+    height: 15px;
+    background-color: yellow; 
+    border: 1px solid red;
+    position: relative; 
+    top: 0; 
+    left: 0; 
+}
+.C6 {
+    width: 80px;
+    height: 15px;
+    background-color: yellow; 
+    border: 1px solid red;
+    position: relative; 
+    top: 0; 
+    left: 0; 
+}
+.C7 {
+    width: 80px;
+    height: 15px;
+    background-color: yellow; 
+    border: 1px solid red;
+    position: relative; 
+    top: 0; 
+    left: 0; 
+}
+.C8 {
+    width: 80px;
+    height: 15px;
+    background-color: yellow; 
+    border: 1px solid red;
+    position: relative; 
+    top: 0; 
+    left: 0; 
+}
+.C9 {
+    width: 80px;
+    height: 15px;
+    background-color: yellow; 
+    border: 1px solid red;
+    position: relative; 
+    top: 0; 
+    left: 0; 
+}
+.C10 {
+    width: 80px;
+    height: 15px;
+    background-color: yellow; 
+    border: 1px solid red;
+    position: relative; 
+    top: 0; 
+    left: 0; 
+}
